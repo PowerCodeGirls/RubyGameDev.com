@@ -336,7 +336,6 @@ DEPENDENCIES
   rails_12factor
   redcarpet
   rspec-rails
-  rubocop
   ruby-stackoverflow!
   sass-rails (~> 4.0.2)
   shoulda-matchers
