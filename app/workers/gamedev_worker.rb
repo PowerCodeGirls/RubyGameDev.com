@@ -9,7 +9,7 @@ class GamedevWorker
                             body_html: question.body,
                             source_url: question.link,
                             external_id: question.question_id)
-		  p.save
+		  p.save!
 	    end
 	end
 

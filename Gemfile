@@ -50,14 +50,10 @@ gem 'bugsnag'
 
 # markdown processing
 gem 'redcarpet'
-
-# API stackoverflow
+# Our fork takes the questions from gamedev instead of stackoverflow
 gem 'ruby-stackoverflow', git: 'https://github.com/PowerCodeGirls/ruby-stackoverflow.git' 
-
 gem 'sidekiq'
 gem "sidekiq-cron", "~> 0.3.0"
-
-gem 'rubocop'
 
 group :test do
   gem 'rspec-rails'
