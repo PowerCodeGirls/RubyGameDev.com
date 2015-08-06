@@ -3,6 +3,7 @@ require "rails_helper"
 describe InternalPost do
   it { should belong_to :user }
   it { should validate_presence_of :comments }
+  it { should validate_presence_of :body_markdown }
   it { should validate_presence_of :user }
   it { should validate_presence_of :title }
 
