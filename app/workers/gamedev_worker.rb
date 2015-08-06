@@ -19,6 +19,6 @@ class GamedevWorker
 
   Sidekiq::Cron::Job.create(
     name: "RubyStackoverflow fetch questions every friday",
-    cron: "* * * * 5", 
+    cron: "* * * * 5",
     klass: "GamedevWorker")
 end
